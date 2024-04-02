@@ -15,6 +15,14 @@ body {
 }
 
 
+/* ------------ imp variables ------------- */
+
+:root {
+    --main-color: #3772FF;
+}
+
+
+
 /* ---------- navbar ------------- */
 
 
@@ -28,11 +36,11 @@ body {
     font-family: sans-serif;
 }
 
-.nav .logo{
+.nav .logo {
     width: 50px;
 }
 
-.nav .logo img{
+.nav .logo img {
     width: 100%;
 }
 
@@ -107,4 +115,81 @@ body {
 
 .main .img-main img {
     width: 100%;
+}
+
+
+
+
+
+
+
+/* --------------about section ---------------- */
+.about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.about .about-img {
+    min-width: 45%;
+}
+
+.about .about-img img {
+    width: 100%;
+}
+
+.about .about-content{
+    padding-left: 50px;
+}
+
+.about .about-content h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+.about .about-content h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 70px;
+    padding: 20px 0;
+}
+
+.about .choose-us{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about .choose-us h3{
+    padding: 8px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.about .choose-us p{
+    font-size: 1.1rem;
+    line-height: 27px;
+}
+
+.about button{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 3rem;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    transition: 0.3s linear;
+    border: 1px solid;
+}
+
+.about button:hover{
+    border: var(--main-color) solid 1px;
+    color: var(--main-color);
+    background-color: #fff;
 }
